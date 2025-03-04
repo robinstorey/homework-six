@@ -1,0 +1,67 @@
+@use "variables";
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+#app-abt {
+    max-width: variables.$content-width;
+    margin: 0 auto;
+    min-height: 1200px;
+    //background-color: antiquewhite;
+    
+    position: relative;
+    footer{
+        margin-top: 500px;
+        
+        
+        
+    
+        .logo{
+            width: 150px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            color: white;
+            //background-color: cornflowerblue;
+        }
+    
+        .icons{
+            width: 150px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            
+            //background-color: cornflowerblue;
+        }
+    
+        
+    }
+    
+    footer p {
+      text-decoration: none;
+      color: #fff;
+    }
+}   
+
+
+@media all and (max-width: 800px) {
+   #app-abt{
+    max-width: 800px;
+    position: relative;
+   }
+
+   nav,footer{
+    max-width: 800px;
+   }
+}

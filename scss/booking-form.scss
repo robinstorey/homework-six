@@ -1,0 +1,236 @@
+@use "variables";
+
+.booking-form{
+    //background-color: pink;
+    max-width: variables.$content-width;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    justify-content: center;
+    margin-top: 300px;
+
+    .title-holder{
+        width: 818px;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    
+    .top-inputs{
+        width: 818px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        //background-color: red;
+        justify-content: center;
+        margin-bottom: 20px;
+        
+        .input-holder{
+            position: relative;
+            
+            
+            .box{
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                background-color: blue;
+                right: 10px;
+                bottom: 9px;
+    
+            }
+
+            input {
+                border:solid 1px #79ADDC;
+                height: 58px;
+                padding-left: 20px;
+            }
+            .small{
+                width: 344px;
+            }
+            .big{
+                width: 453px;
+            }
+        }
+    
+        
+    }
+
+    .checkin-out-inputs{
+        width: 818px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        //background-color: red;
+        justify-content: center;
+        margin-bottom: 20px;
+        
+    
+        .input-holder{
+            position: relative;
+            
+            .box{
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 40px;
+                height: 40px;
+                // background-color: blue;
+                right: 10px;
+                bottom: 9px;
+            }
+            input {
+                border:solid 1px #79ADDC;
+                height: 58px;
+                padding-left: 20px;
+            }
+            .small{
+                width: 96px;
+            }
+            .big{
+                width: 698px;
+            }
+        }
+
+        .text-holder{
+            position: relative;
+            width: 96px;
+            height: 58px;
+            
+            .text{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                font-size: 18px;
+            }
+
+        }
+    
+    
+        
+    }
+
+    .drop-down-inputs{
+        width: 818px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        //background-color: red;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        
+        .input-box{
+            
+        }
+        .input-holder{
+            position: relative;
+            
+            .box{
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                
+                //background-color: blue;
+                right: 10px;
+                bottom: 9px;
+
+            }
+            input {
+                border:solid 1px #79ADDC;
+                height: 58px;
+                padding-left: 20px;
+            }
+            .small{
+                width: 96px;
+            }
+            .big{
+                width: 103px;
+            }
+        }
+
+        .text-holder{
+            position: relative;
+            width: 96px;
+            height: 58px;
+            
+            .text{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                font-size: 18px;
+            }
+
+        }
+    
+    
+        
+    }
+
+    .message-input{
+        width: 818px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        background-color: red;
+        justify-content: center;
+        margin-bottom: 20px;
+        
+    
+        .input-holder{
+            position: relative;
+            
+            .box{
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                background-color: blue;
+                right: 10px;
+                bottom: 9px;
+            }
+            input {
+                border:solid 1px #79ADDC;
+                height: 58px;
+                padding-left: 20px;
+
+
+            }
+
+            .big{
+                width: 818px;
+                height: 231px;
+            }
+        }
+        
+    }
+
+    .submit-button{
+        width: 813px;
+        height: 60px;
+        background-color: #79ADDC;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 30px;
+        margin-bottom: 100px;
+
+        
+    }
+}
+
+@media all and (max-width: 800px) {
+    .booking-form{
+        margin-top:1000px;
+        .title-holder{
+            margin-left: 100px;
+        }
+    }
+}

@@ -1,0 +1,68 @@
+@use "variables" as v;
+
+.package-content{
+    width: v.$content-width;
+    margin: 0 auto;
+    padding-top: 142px;
+    
+
+    .tours-hero{
+        width: 980px;
+        height: 413px;
+        background-color: plum;
+        margin: 0 auto;
+        margin-bottom: 48px;
+    }
+
+    .trip-photos{
+        width: 980px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: pink;
+        margin-bottom: 55px;
+        
+        .img-holder{
+            width: 298px;
+            height: 347px;
+            background-color: green;
+        }
+    }
+
+    .day-holder{
+        max-width: 980px;
+        margin: 0 auto;
+        margin-bottom: 80px;
+        
+        .day-text{
+            text-decoration: underline 2px;
+            text-underline-offset: 10px;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .text-holder{
+            max-width: 980px;
+            min-height: 96px;
+            // background-color: aqua;
+            font-size: 16px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom:95px;
+        }
+    }
+
+    .book-btn{
+        width: 133px;
+        height: 40px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 15px;
+        color: white;
+        border-radius: 20px;
+        margin-bottom: 100px;
+        background-color: #79ADDC;
+    }
+}

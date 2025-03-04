@@ -1,0 +1,88 @@
+@use "variables" as v;
+
+.hero-container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: burlywood;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(../images/08d1d5fa0c105d79ba6adbb3d3ca5ed7.png);
+    background-repeat: no repeat;
+
+    .info-holder{
+        //background-color: blueviolet;
+        color: white;  
+        position: absolute;
+        margin-top: 162px;
+        display: inline-block;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        
+        
+        h1{
+            font-size: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        p{
+            font-size: 20px;
+            padding: 20px;
+            
+        }
+
+        .button-holder{
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            
+            .read-more{
+                width: 121px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;  
+                background-color: #79ADDC;
+            }
+        }
+    }
+
+
+    .photo-container{
+        //background-color: blue;
+        width: 818px;
+        display: flex;
+        gap: 20px;
+        padding-top: 450px;
+        margin-bottom: 300px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        .photo{
+            height: v.$photo-container-height;
+            width: 236px;
+            height: 304px;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            background-color: aquamarine;
+            
+        }
+    }
+
+    @media all and (max-width: 800px) {
+        .photo-container{
+            width: 236px;
+            display: flex;
+            gap: 20px;
+            padding-top: 450px;
+            margin-bottom: 300px;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+
+

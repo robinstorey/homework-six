@@ -1,0 +1,41 @@
+footer{
+    height: 100px;
+    width: 1280px;
+    // background-color: aliceblue;
+    border-bottom: solid 2px #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    background-color: #79ADDC;
+    padding: 0 20px;
+    
+    
+
+    .logo{
+        width: 150px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: white;
+        //background-color: cornflowerblue;
+    }
+
+    .icons{
+        width: 150px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        //background-color: cornflowerblue;
+    }
+
+    
+}
+
+footer p {
+  text-decoration: none;
+  color: #fff;
+}
